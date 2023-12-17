@@ -1,0 +1,59 @@
+.container {
+    text-align: center;
+}
+
+.title {
+    margin-top: 19px;
+    color: teal;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title span {
+    color: crimson;
+    padding-left: 15px;
+}
+
+.reset {
+    width: 150px;
+    height: 75px;
+    border: white solid 3px;
+    outline: double;
+    cursor: pointer;
+    border-radius: 50px;
+    background: teal;
+    font-size: 35px;
+    color: black;
+    margin-top: 6rem;
+}
+
+.boxes {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background: white;
+    border: 4px  teal solid;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 1px;
+    outline-style: ridge;
+    outline-color: white;
+}
+
+.board {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    margin: auto;
+}
+.boxes img{
+    margin: 15px;
+}
+.title img {
+    height: 55px;
+}
+#mark{
+color: darkgreen;
+}
