@@ -1,10 +1,16 @@
+body{
+    background-image: url('../Assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; 
+}
 .container {
     text-align: center;
 }
 
 .title {
     margin-top: 19px;
-    color: teal;
+    color: darkcyan;
     font-size: 60px;
     display: flex;
     justify-content: center;
@@ -12,7 +18,7 @@
 }
 
 .title span {
-    color: crimson;
+    color: darkcyan;
     padding-left: 15px;
 }
 
@@ -56,4 +62,10 @@
 }
 #mark{
 color: darkgreen;
+}
+
+@media screen  and (max-width:767px){
+   .container{
+    padding-top: 20rem;
+   }
 }
